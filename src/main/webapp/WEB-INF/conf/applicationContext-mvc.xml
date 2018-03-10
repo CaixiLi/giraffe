@@ -10,7 +10,7 @@
 
     <mvc:annotation-driven />
         
-    <!--<context:component-scan base-package="com.immomo.live.phoenix" />-->
+    <context:component-scan base-package="com.li.giraffe" />
     
      
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">

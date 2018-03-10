@@ -1,4 +1,4 @@
-package com.immomo.live.phoenix.controller;
+package com.li.giraffe.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

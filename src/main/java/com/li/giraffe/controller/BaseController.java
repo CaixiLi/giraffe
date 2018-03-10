@@ -1,4 +1,4 @@
-package com.immomo.live.phoenix.controller;
+package com.li.giraffe.controller;
 
 import java.io.IOException;
 import javax.servlet.http.HttpServletRequest;
