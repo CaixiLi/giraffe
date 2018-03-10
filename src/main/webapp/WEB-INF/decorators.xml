@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/WEB-INF/templates">
+	<excludes>
+		<pattern>/js/*</pattern>
+		<pattern>/login/*</pattern>
+		<pattern>/login*</pattern>
+		<pattern>/login.jsp</pattern>
+		<pattern>/error/*</pattern>
+		<pattern>/error/404*</pattern>
+		<pattern>/error/404</pattern>
+		<pattern>/error/500*</pattern>
+		<pattern>/metronic/*</pattern>
+	</excludes>
+	
+	<decorator name="template" page="template.jsp">
+		<pattern>/*</pattern>
+	</decorator>
+</decorators>
