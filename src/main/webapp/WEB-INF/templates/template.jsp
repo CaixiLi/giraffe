@@ -21,7 +21,7 @@ License: You must have a valid license purchased only from themeforest(the above
 
 <head>
 	<meta charset="utf-8" />
-	<title>Phoenix | 风控管理后台</title>
+	<title>Giraffe</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta content="width=device-width, initial-scale=1" name="viewport" />
 	<meta content="" name="description" />
@@ -750,7 +750,7 @@ License: You must have a valid license purchased only from themeforest(the above
 <!-- END PRE-FOOTER -->
 <!-- BEGIN INNER FOOTER -->
 <div class="page-footer">
-	<div class="container"> 2018 &copy; Phoenix by 陌陌</div>
+	<div class="container"> 2018 &copy; Giraffe by Lee</div>
 </div>
 <div class="scroll-to-top">
 	<i class="icon-arrow-up"></i>
