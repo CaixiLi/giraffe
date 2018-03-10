@@ -8,6 +8,45 @@
   <version>1.0-SNAPSHOT</version>
   <name>giraffe Maven Webapp</name>
   <url>http://maven.apache.org</url>
+  <build>
+    <finalName>giraffe</finalName>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.tomcat.maven</groupId>
+        <artifactId>tomcat7-maven-plugin</artifactId>    <!--这里也可以使用tomcat7-maven-plugin -->
+        <version>2.2</version>   <!--最新版本 -->
+        <configuration>
+          <url>http://localhost:8180/manager/text</url>    <!--配置远程tomcat的路径 -->
+          <username>admin</username>
+          <password>admin</password>
+          <port>8180</port>
+          <path>/</path>
+          <uriEncoding>UTF-8</uriEncoding>   <!--tomcat的url编码 达到和修改server.xml文件一样的功能 -->
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-assembly-plugin</artifactId>
+        <version>2.4</version>
+        <executions>
+          <execution>
+            <id>assembly</id>
+            <phase>package</phase>
+            <goals>
+              <goal>single</goal>
+            </goals>
+            <configuration>
+              <finalName>giraffe</finalName>
+              <descriptors>
+                <descriptor>src/main/resources/assembly-zip.xml</descriptor>
+              </descriptors>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+
   <dependencies>
     <dependency>
       <groupId>opensymphony</groupId>
@@ -59,8 +98,15 @@
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-context-support</artifactId>
-      <version>4.3.8.RELEASE</version>
+      <version>4.2.2.RELEASE</version>
     </dependency>
+
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-context</artifactId>
+      <version>4.2.2.RELEASE</version>
+    </dependency>
+
     <!-- end spring -->
 
     <dependency>
@@ -163,42 +209,5 @@
       <version>1.5</version>
     </dependency>
   </dependencies>
-  <build>
-    <finalName>giraffe</finalName>
-    <plugins>
-      <plugin>
-        <groupId>org.apache.tomcat.maven</groupId>
-        <artifactId>tomcat7-maven-plugin</artifactId>    <!--这里也可以使用tomcat7-maven-plugin -->
-        <version>2.2</version>   <!--最新版本 -->
-        <configuration>
-          <url>http://localhost:8080/manager/text</url>    <!--配置远程tomcat的路径 -->
-          <username>admin</username>
-          <password>admin</password>
-          <port>8080</port>
-          <path>/</path>
-          <uriEncoding>UTF-8</uriEncoding>   <!--tomcat的url编码 达到和修改server.xml文件一样的功能 -->
-        </configuration>
-      </plugin>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-assembly-plugin</artifactId>
-        <version>2.4</version>
-        <executions>
-          <execution>
-            <id>assembly</id>
-            <phase>package</phase>
-            <goals>
-              <goal>single</goal>
-            </goals>
-            <configuration>
-              <finalName>giraffe</finalName>
-              <descriptors>
-                <descriptor>src/main/resources/assembly-zip.xml</descriptor>
-              </descriptors>
-            </configuration>
-          </execution>
-        </executions>
-      </plugin>
-    </plugins>
-  </build>
+
 </project>

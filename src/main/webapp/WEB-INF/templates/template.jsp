@@ -127,23 +127,23 @@ License: You must have a valid license purchased only from themeforest(the above
 						</a>
 						<ul class="dropdown-menu pull-left">
 							<li class=" ">
-								<a href="/system/phoenixUser" class="nav-link  "> 用户列表 </a>
+								<a href="/system/user" class="nav-link  "> 用户列表 </a>
 							</li>
 							<li class=" ">
-								<a href="/system/phoenixRole" class="nav-link  ">角色列表</a>
+								<a href="/system/role" class="nav-link  ">角色列表</a>
 							</li>
 							<li class=" ">
-								<a href="/system/phoenixMenu" class="nav-link  ">功能列表</a>
+								<a href=" " class="nav-link  ">功能列表</a>
 							</li>
 						</ul>
 					</li>
 					<li class="menu-dropdown classic-menu-dropdown ">
-						<a href="javascript:;"> 百万选择王
+						<a href="javascript:;"> 测试
 							<span class="arrow"></span>
 						</a>
 						<ul class="dropdown-menu pull-left">
 							<li class=" ">
-								<a href="/qa/largeAmount" class="nav-link  "> 大额提现 </a>
+								<a href="/qa/largeAmount" class="nav-link  "> 测试 </a>
 							</li>
 						</ul>
 					</li>
@@ -784,17 +784,24 @@ License: You must have a valid license purchased only from themeforest(the above
 <script src="/metronic/theme/assets/global/plugins/flot/jquery.flot.categories.min.js" type="text/javascript"></script>
 <script src="/metronic/theme/assets/global/plugins/jquery-easypiechart/jquery.easypiechart.min.js" type="text/javascript"></script>
 <script src="/metronic/theme/assets/global/plugins/jquery.sparkline.min.js" type="text/javascript"></script>
-<script src="/metronic/theme/assets/global/plugins/jqvmap/jqvmap/jquery.vmap.js" type="text/javascript"></script>
-<script src="/metronic/theme/assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.russia.js" type="text/javascript"></script>
-<script src="/metronic/theme/assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.world.js" type="text/javascript"></script>
-<script src="/metronic/theme/assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.europe.js" type="text/javascript"></script>
-<script src="/metronic/theme/assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.germany.js" type="text/javascript"></script>
-<script src="/metronic/theme/assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.usa.js" type="text/javascript"></script>
-<script src="/metronic/theme/assets/global/plugins/jqvmap/jqvmap/data/jquery.vmap.sampledata.js" type="text/javascript"></script>
+<%--<script src="/metronic/theme/assets/global/plugins/jqvmap/jqvmap/jquery.vmap.js" type="text/javascript"></script>--%>
+<%--<script src="/metronic/theme/assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.russia.js" type="text/javascript"></script>--%>
+<%--<script src="/metronic/theme/assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.world.js" type="text/javascript"></script>--%>
+<%--<script src="/metronic/theme/assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.europe.js" type="text/javascript"></script>--%>
+<%--<script src="/metronic/theme/assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.germany.js" type="text/javascript"></script>--%>
+<%--<script src="/metronic/theme/assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.usa.js" type="text/javascript"></script>--%>
+<%--<script src="/metronic/theme/assets/global/plugins/jqvmap/jqvmap/data/jquery.vmap.sampledata.js" type="text/javascript"></script>--%>
+<!-- END PAGE LEVEL PLUGINS -->
+<!-- BEGIN PAGE LEVEL PLUGINS -->
+<script src="/metronic/theme/assets/global/plugins/jquery-ui/jquery-ui.min.js" type="text/javascript"></script>
 <!-- END PAGE LEVEL PLUGINS -->
 <!-- BEGIN THEME GLOBAL SCRIPTS -->
 <script src="/metronic/theme/assets/global/scripts/app.min.js" type="text/javascript"></script>
 <!-- END THEME GLOBAL SCRIPTS -->
+
+<!-- BEGIN PAGE LEVEL SCRIPTS -->
+<script src="/metronic/theme/assets/pages/scripts/ui-modals.min.js" type="text/javascript"></script>
+<!-- END PAGE LEVEL SCRIPTS -->
 <!-- BEGIN PAGE LEVEL SCRIPTS -->
 <script src="/metronic/theme/assets/pages/scripts/dashboard.min.js" type="text/javascript"></script>
 <!-- END PAGE LEVEL SCRIPTS -->
@@ -822,6 +829,7 @@ License: You must have a valid license purchased only from themeforest(the above
 <!-- BEGIN PAGE LEVEL SCRIPTS -->
 <script src="/metronic/theme/assets/pages/scripts/components-date-time-pickers.min.js" type="text/javascript"></script>
 <!-- END PAGE LEVEL SCRIPTS -->
+
 </body>
 
 </html>
