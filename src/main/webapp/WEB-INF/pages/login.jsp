@@ -39,7 +39,7 @@ License: You must have a valid license purchased only from themeforest(the above
 	<link href="/metronic/theme/assets/global/plugins/select2/css/select2.min.css" rel="stylesheet" type="text/css" />
 	<link href="/metronic/theme/assets/global/plugins/select2/css/select2-bootstrap.min.css" rel="stylesheet" type="text/css" />
 	<!-- END PAGE LEVEL PLUGINS -->
-	<!-- BEGIN THEME GLOBAL STYLES -->
+	<!-- BEGITHEME GLOBAL STYLES -->
 	<link href="/metronic/theme/assets/global/css/components-md.min.css" rel="stylesheet" id="style_components" type="text/css" />
 	<link href="/metronic/theme/assets/global/css/plugins-md.min.css" rel="stylesheet" type="text/css" />
 	<!-- END THEME GLOBAL STYLES -->
