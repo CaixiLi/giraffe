@@ -24,6 +24,12 @@
       <artifactId>xmemcached</artifactId>
       <version>1.4.2</version>
     </dependency>
+    <!--日志包-->
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-log4j12</artifactId>
+      <version>1.8.0-alpha2</version>
+    </dependency>
 
     <dependency>
       <groupId>com.fasterxml.jackson.core</groupId>
@@ -50,6 +56,11 @@
       <version>4.2.2.RELEASE</version>
     </dependency>
 
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-context-support</artifactId>
+      <version>4.3.8.RELEASE</version>
+    </dependency>
     <!-- end spring -->
 
     <dependency>
@@ -132,11 +143,6 @@
       <groupId>commons-dbcp</groupId>
       <artifactId>commons-dbcp</artifactId>
       <version>1.2.2</version>
-    </dependency>
-    <dependency>
-      <groupId>mysql-proxy</groupId>
-      <artifactId>mysql-proxy</artifactId>
-      <version>0.0.9.5-SNAPSHOT</version>
     </dependency>
 
     <!-- 文件导出 -->
